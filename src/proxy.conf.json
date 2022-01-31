@@ -1,0 +1,7 @@
+{
+    "/v1/*": {
+    "target": "https://api-apollo.pegaxy.io/",
+    "secure": true,
+    "changeOrigin": true
+    }
+}

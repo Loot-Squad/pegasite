@@ -1,0 +1,6 @@
+<router-outlet></router-outlet>
+<mat-form-field appearance="fill">
+    <mat-label>Wallet Address</mat-label>
+    <input matInput type="text" [(ngModel)]="walletAddress">
+</mat-form-field>
+<app-pegas walletAddress={{walletAddress}}></app-pegas>
